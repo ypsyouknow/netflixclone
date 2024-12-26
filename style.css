@@ -1,0 +1,326 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: hwb(0 9% 91%);
+}
+nav
+{
+    display: grid;
+    grid-template-columns: 85% 90px 50px;
+    grid-template-rows: 11vh;
+}
+#logo
+{
+    width:10.2vw; 
+    height:17.2vh;
+    grid-row: 1;
+    grid-column: 1;
+    padding-left: 2vw;
+    margin-top: auto;
+}
+#language
+{
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 3vw;
+    height:5vh;
+    font-size: 1vw;
+    width: 5vw;
+    padding-left: 5px;
+    background-color: hwb(0 9% 91%);
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+}
+
+#signin
+{
+    grid-row: 1;
+    grid-column: 3;
+    padding-left: 5px;
+    font-size: 1vw;
+    width:5vw;
+    height:5vh;
+    border-radius: 50px;
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+#signin a
+{
+    text-decoration: none;
+}
+.introimg
+{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 29.25%, rgba(0, 0, 0, 0.10) 50.5%), url(first\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 93vw;
+    margin: 3vw;
+    border: 0.5vh solid gray; 
+    border-bottom: none;
+    border-top-color: white;
+    border-bottom-color: gray;
+    overflow: hidden;
+    filter:brightness(55%);
+    color: white;
+
+}
+#mainhead
+{
+    color: white;
+    font-size: 10vh;
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#subhead
+{
+    color: white;
+    font-size: 3vh;
+    position: absolute;
+    top: 73vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Courier New', Courier, monospace;
+}
+.register h4
+{
+    text-align: center;
+    font-size: 2.4vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-80%);
+}
+.register input
+{
+    position: absolute;
+    top: 99%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    height: 5vh;
+    width: 20vw;
+    border-radius: 50px;
+    background-color: hwb(0 9% 91%);
+    color: white;
+    font-size: 3vh;
+    padding-left: 1vw;
+    border-width: 0.1vw;
+}
+
+.register button
+{
+    position: absolute;
+    top: 99%;
+    left: 61%;
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(229, 9, 20);;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 3vh;
+}
+
+.trendingnow h2
+{
+    position: absolute;
+    margin-top: 6vh;
+    font-size: 4vh;
+    color: white;   
+    padding-left: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trendingnow #one
+{
+    position: absolute;
+    margin-top: 13vh;
+    margin-left: 5vw;
+    height: 30vh;
+    width: 8vw;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.trendingnow #headone
+{
+    font-size: 10vh;
+    padding-top: 12vh;
+    padding-left: 3.5vw;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2vh white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trendingnow #two
+{
+    position: absolute;
+    margin-top: -10.5vh;
+    margin-left: 15vw;
+    height: 30vh;
+    width: 8vw;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.trendingnow #headtwo
+{
+    position: absolute;
+    top: 109.5vh;
+    font-size: 10vh;
+    padding-left: 13.4vw;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2vh white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trendingnow #three
+{
+    position: absolute;
+    top: 110vh;
+    margin-left: 25vw;
+    height: 30vh;
+    width: 8vw;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.trendingnow #headthree
+{
+    position: absolute;
+    top: 109.5vh;
+    font-size: 10vh;
+    padding-left: 23.5vw;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2vh white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trendingnow #four
+{
+    position: absolute;
+    top: 110vh;
+    margin-left: 35vw;
+    height: 30vh;
+    width: 8vw;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.trendingnow #headfour
+{
+    position: absolute;
+    top: 109.5vh;
+    font-size: 10vh;
+    padding-left: 33.4vw;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2vh white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trendingnow #five
+{
+    position: absolute;
+    top: 110vh;
+    margin-left: 45vw;
+    height: 30vh;
+    width: 8vw;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.trendingnow #headfive
+{
+    position: absolute;
+    top: 109.5vh;
+    font-size: 10vh;
+    padding-left: 43.7vw;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2vh white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trendingnow img:hover
+{
+    border: 0.5vh solid white;
+}
+.reasons
+{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: auto 20vh;
+    column-gap: 3vw;
+    row-gap: 2vh;
+    padding-left: 5vw;
+    font-size: 3vh;
+}
+.reasons h2
+{
+    margin-top: 23vh;
+    font-size: 4vh;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#reasonone
+{
+    grid-row: 2;
+    grid-column: 1;
+    background-color:hwb(0 9% 91%);    
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    padding-left: 2px;
+    padding-left: 1vw;
+}
+
+#reasontwo
+{
+    grid-row: 2;
+    grid-column: 2;
+    background-color:hwb(0 9% 91%);    
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    padding-left: 1vw;
+}
+
+#reasonthree
+{
+    grid-row: 2;
+    grid-column: 3;
+    background-color:hwb(0 9% 91%);    
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    padding-left: 1vw;
+}
+
+#reasonfour
+{
+    grid-row: 2;
+    grid-column: 4;
+    background-color:hwb(0 9% 91%);    
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.faq h2
+{
+    margin-top: 7vh;
+    font-size: 4vh;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5vw;
+}
